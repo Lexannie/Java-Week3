@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=WeatherData
+comment1.params=parser
+comment1.target=org.apache.commons.csv.CSVRecord\ coldestHourInFile(org.apache.commons.csv.CSVParser)
+comment1.text=\r\n\ coldestHourInFile\ that\ has\ one\ parameter,\ a\ CSVParser\ named\ parser.\ \r\n\ This\ method\ returns\ the\ CSVRecord\ \r\n\ with\ the\ coldest\ temperature\ in\ the\ file\ \r\n\r\n\ @param\ \ CSVParser\ named\ parser\r\n\ @return\ CSVRecord\ with\ the\ coldest\ temperature\ in\ the\ file\r\n
+comment2.params=
+comment2.target=java.lang.String\ fileWithColdestTemperature()
+comment2.text=\r\n\ fileWithColdestTemperature\ that\ has\ no\ parameters.\ \r\n\ This\ method\ should\ return\ a\ string\ that\ is\ the\ name\ of\ the\ file\ \r\n\ from\ selected\ files\ that\ has\ the\ coldest\ temperature\r\n\r\n\ @param\ \ none\r\n\ @return\ string\ that\ is\ the\ name\ of\ the\ file\ \r\n\ from\ selected\ files\ that\ has\ the\ coldest\ temperature\r\n
+comment3.params=parser
+comment3.target=org.apache.commons.csv.CSVRecord\ lowestHumidityInFile(org.apache.commons.csv.CSVParser)
+comment3.text=\r\n\ \ lowestHumidityInFile\ that\ has\ one\ parameter,\ a\ CSVParser\ named\ parser.\ \r\n\ \ This\ method\ returns\ the\ CSVRecord\ that\ has\ the\ lowest\ humidity.\ \r\n\ \ If\ there\ is\ a\ tie,\ then\ return\ the\ first\ such\ record\ that\ was\ found.\r\n\r\n\ @param\ \ CSVParser\ parser\r\n\ @return\ CSVRecord\ that\ has\ the\ lowest\ humidity.\r\n
+comment4.params=
+comment4.target=org.apache.commons.csv.CSVRecord\ lowestHumidityInManyFiles()
+comment4.text=\r\n\ lowestHumidityInManyFiles\ \r\n\ that\ has\ no\ parameters.\ \r\n\ This\ method\ returns\ a\ CSVRecord\ that\ has\ the\ lowest\ humidity\ over\ all\ the\ files\r\n\r\n\ @param\ \ none\r\n\ @return\ CSVRecord\ that\ has\ the\ lowest\ humidity\ over\ all\ the\ files\r\n
+comment5.params=parser
+comment5.target=double\ averageTemperatureInFile(org.apache.commons.csv.CSVParser)
+comment5.text=\r\n\ averageTemperatureInFile\ that\ has\ one\ parameter,\ a\ CSVParser\ named\ parser.\ \r\n\ This\ method\ returns\ a\ double\ that\ represents\ the\ average\ temperature\ in\ the\ file.\r\n\r\n\ @param\ \ CSVParser\ parser\r\n\ @return\ double\ that\ represents\ the\ average\ temperature\ in\ the\ file\r\n
+comment6.params=parser\ value
+comment6.target=double\ averageTemperatureWithHighHumidityInFile(org.apache.commons.csv.CSVParser,\ int)
+comment6.text=\r\n\ averageTemperatureWithHighHumidityInFile\ that\ has\ two\ parameters\:\ \r\n\ a\ CSVParser\ named\ parser\ and\ an\ integer\ named\ value.\ \r\n\ This\ method\ returns\ a\ double\ that\ represents\ the\ average\ temperature\ \r\n\ of\ only\ those\ temperatures\ when\ the\ humidity\ was\ greater\ than\ or\ equal\ to\ value.\r\n\r\n\ @param\ \ \r\n\ \ \ \ \ \ \ \ \ \ CSVParser\ parser\r\n\ \ \ \ \ \ \ \ \ \ integer\ value\r\n\ @return\ \ \r\n\ \ \ \ \ \ \ \ \ \ double\ average\ temperature\ of\ only\ those\ temperatures\ when\ \r\n\ \ \ \ \ \ \ \ \ \ the\ humidity\ was\ greater\ than\ or\ equal\ to\ value.\r\n
+comment7.params=
+comment7.target=void\ tester()
+comment7.text=\r\n\ tester\:\ create\ your\ CSVParser\ and\ call\ each\ of\ the\ methods.\ \r\n\ Contains\ test\ cases\ with\ calls\ to\ methods.\r\n\r\n\ @param\ \ none\r\n\ @return\ void\r\n
+comment8.params=
+comment8.target=void\ main()
+comment8.text=\r\n\ main\r\n\r\n\ @param\ \ none\r\n\ @return\ void\r\n
+numComments=9
